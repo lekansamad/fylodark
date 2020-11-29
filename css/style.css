@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:black;
+}
+
+header{
+    font-family:'Raleway', sans-serif;
+    padding: 1% 4% 1% 3%;
+    font-family:'Raleway', sans-serif;
+    padding: 1% 4% 14% 4%;
+    /* margin-bottom: 8%; */
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom 0 left 0 ;
+        
+    
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.pad{
+    text-align: center;
+    color: white;
+}
+
+.rad{
+    border-radius: 30px;
+}
+
+.try{
+    color: white;
+    padding-top: 10%;
+}
+
+.imge{
+    padding:3%;
+}
+
+.lad{
+    width: 60%;
+}
+
+.team-section{
+    background-color: #181F2B;
+}
+
+.pol{
+    text-align: center;
+    padding:10% 0% 10% 0% ;
+}
+
+.p-section{
+    padding: 0% 10%;
+}
+
+.p-description{
+    padding: 0% 4%;
+}
+
+.ert{
+    margin-top:10%;
+    color: white;
+    padding: 3%;
+    background-color:rgb(33,41,60);
+    width: 100%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.team-member-img{
+    border-radius: 95% !important;
+    padding-top: 1%;
+}
+
+.person-details{
+    padding-left: 6%;
+    margin-top:2%;
+}
+
+.team-mates{
+    padding-bottom: 14% !important;
+    margin-bottom: 0 !important;
+}
+
+.get-access{
+    position: absolute;
+    top: -25%;
+    right: 17%;
+    width: 70%;
+    padding: 2% 5%;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    background-color:rgb(33,41,60);
+}
+
+.email-input{
+    border-radius: 15px;
+}
+
+.form-div{
+    text-align: left;
+    padding: 0 !important;
+}
+
+.form-div2{
+    text-align: left;
+    padding: 0 0 0 5% !important;
+}
+
+.get-btn{
+    width: 60%;
+    border-radius: 15px;
+}
+
+
+.footer-logo{
+    margin-bottom: 2%;
+}
+
+.footer-section{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 13% 4% 5% 4%;
+    position: relative;
+}
+
+.footer-section a{
+    display: block;
+}
+
+.non-block a{
+    display: inline;
+}
+
+.footer-section a, .non-block a{
+    color: white;
+}
+.footer-section a:hover, .non-block a:hover{
+   text-decoration: none;
+   color: #6DB7AB;
+}
+
+@media screen and (min-width:1116px){
+    
+}
+
+@media screen and (max-width:1116px)and (min-width:768px){
+    .get-access{
+        position: absolute;
+        top: -25%;
+        right: 17%;
+        width: 70%;
+        padding: 2% 5%;
+        text-align: center;
+        color: white;
+        border-radius: 8px;
+        background-color:rgb(33,41,60);
+    }
+}
+
+@media screen and (max-width:993px){
+    .get-access{
+        position: absolute;
+        top: -25%;
+        right: 17%;
+        margin-right: -7%;
+        width: 80%;
+        padding: 5% 5%;
+        text-align: center;
+        color: white;
+        border-radius: 8px;
+        background-color:rgb(33,41,60);
+    }
+
+    .get-btn{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .email-input{
+        border-radius: 15px;
+    }
+
+    .footer-section{
+        background-color: hsl(243, 87%, 12%);
+        color: white;
+        padding: 40% 4% 5% 4%;
+        position: relative;
+    }
+
+    .team-mates{
+        padding-bottom: 40% !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .try{
+        color: white;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .form-div2{
+        text-align: left;
+        padding: 0 0 0 0% !important;
+    }
+
+    h1{
+        font-size:1.7rem !important;
+    }
+
+    .fit{
+        text-align: center;
+    }
+} 
+
+
